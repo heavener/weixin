@@ -219,6 +219,7 @@ public class WeixinController {
     @RequestMapping("scanlogin")
     public String scanlogin(String openid,String uuid,HttpServletRequest request)  {
         System.out.println();
+        System.out.println();
         //传递数据给电商项目
         Map map = new HashMap();
         map.put("openid",openid);
